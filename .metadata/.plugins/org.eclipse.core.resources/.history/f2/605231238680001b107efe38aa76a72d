@@ -1,0 +1,18 @@
+package mx.tec.lab;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public interface DragonRepository {
+	@Id
+	private long id;
+	private String name;
+	
+	public Dragon() {}
+	
+	public Dragon(long id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+}

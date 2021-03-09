@@ -1,0 +1,8 @@
+package mx.tec.lab;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+public interface DragonRepository {
+
+}
